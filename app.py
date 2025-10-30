@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 CHAT_ID = int(os.environ.get("CHAT_ID", "0"))
-CHECK_INTERVAL = int(os.environ.get("CHECK_INTERVAL", "180"))
+CHECK_INTERVAL = int(os.environ.get("CHECK_INTERVAL", "30"))
 
 SITES = [
     "https://www.destructoid.com/feed/",
